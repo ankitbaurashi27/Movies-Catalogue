@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111;
+}
+.nav_logo {
+    width: 80px;
+    object-fit: contain;
+}
+
+.nav_avatar {
+    width: 30px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav_blacK {
+    background-color: #111;
+
+} 
+  .logo-container {
+    flex: 1;
+  }
+  
+  .logo {
+    font-size: 30px;
+    color: #4dbf00;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .centerContainer{
+    margin-top: 30px;
+    margin-left: 260px;
+    max-width: 978px;
+    padding: 20px 3% 60px;
+}
+
+.regFormContainer{
+    max-width: 600px;
+    margin: 0 auto;
+    color: #4dbf00;
+}
+
+.regFormContainer .stepHeader-container{
+    margin-bottom: 0px;
+}
+
+.regFormContainer .stepTitle{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.stepHeader-body .group{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.stepHeader-body div label{
+    color: rgb(140,140,140);
+    font-size: 16px;
+    
+}
+
+.stepHeader-body div input:not(.remember){
+    height: 60px;
+    width: 100%;
+    padding: 10px 10px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    display: block;
+    color: rgb(0,0,0);
+    height: 44px;
+    border: 1px solid rgb(140,140,140);
+    border-radius: 30px;
+}
+
+.stepHeader-body div input:last-child{
+    margin-bottom: 10px;
+}
+
+.submitBtnContainer button{
+    border: none;
+    min-height: 54px;
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+    line-height: 1;
+    border-radius: 30px;
+    width: 100%;
+    padding: 0.7rem 25.3333px;
+    background-color: #4bdf00;
+    color: rgb(255,255,255);
+    box-shadow: rgba(0,0,0,0.25) 0px 1px 1px;
+    letter-spacing: 0.025rem;
+    text-align: center;
+}
+
+.submitBtnContainer button:hover{
+    background-color: #4dbf00;
+}
+
+.alreadyAc{
+  text-decoration: none;
+  padding-top: 12px;
+}
+
+.new{
+  text-decoration: none;
+  color: rgb(140,140,140);
+  padding-top: 10px;
+}
